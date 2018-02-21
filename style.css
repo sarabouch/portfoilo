@@ -1,0 +1,48 @@
+html *{
+    box-sizing: border-box;
+    background-color: #ffe4e1;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e4e1f109;
+}
+a{
+    color:#000;
+}
+h1{
+    padding: 20px;
+}
+ h2{
+    margin: 80px 0 0 30px;
+} 
+h3{
+    margin: 80px 0 40px 470px;
+    text-align: center;
+    font-size: 30px;
+}
+article{
+    padding:4%;
+}
+article img {
+    height:25vh;
+    width: 100%;
+    
+} 
+/* section a:nth-child(odd) article{
+    margin-right:0;
+}
+ */
+img:hover{
+    transform: scale(1.5);
+    transition: all .5s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0, .25);
+}
+p{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 4%;
+    color: #f75240;
+}
+p:hover{
+    color:#611818;
+}

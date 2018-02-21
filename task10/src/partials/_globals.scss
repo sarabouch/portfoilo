@@ -1,0 +1,16 @@
+body{
+    background-color: $primary-color;
+}
+main{
+    margin: 100px auto;
+    width: 50%;
+    display: flex;
+}
+@media only screen and (max-width:500px){
+    main{
+        margin: 100px auto;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+}

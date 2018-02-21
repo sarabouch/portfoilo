@@ -1,0 +1,9 @@
+/* the order of the files is important here */
+  
+/* first my CSS resst, to remove all the standards of the browsers like margin, padding and stuff */
+@import "partials/reset.scss";
+/* 2nd my variables for all  */
+@import "partials/variables.scss";
+@import "partials/typography.scss";
+@import "partials/globals.scss";
+@import "partials/card.scss";

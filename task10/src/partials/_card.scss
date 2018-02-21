@@ -1,0 +1,21 @@
+section{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    height: 900px;
+    box-shadow:0 10px 15px #7a7070;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.right-card{
+    background-image: url("../ronaldo-arthur-vidal-66241.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.left-card{
+    background-image: url("../paint.jpg");
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,50 @@
+.right-section{
+    background-image: url("bkg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.right-section .row{
+    height: 100%;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.col-4{
+    background-color: #000;
+    opacity: 0.5
+}
+h4{
+    padding: 20px;
+}
+h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+p{
+    line-height: 45px;
+    color: #857a7a;
+}
+.btn{
+    background-color: #fff;
+    color: #000;
+    opacity: 0.5;
+    border: none;
+    height: 150px;
+    display: flex;
+}
+.nav-arrow{
+    background-color: #000000;
+    opacity: 0.5;
+    height: 150px;
+}
+.nav-li{
+    font-size: 20px;
+    color: #fff;
+    background-color: #000000;
+    opacity: 0.5;
+    height: 150px;
+}

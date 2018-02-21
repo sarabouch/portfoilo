@@ -1,0 +1,43 @@
+h1, p, h4{
+    align-self: $position;
+}
+h4{
+    font-family: $first-font;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 6px;
+    color: $text-color;
+    margin-bottom: 115px;
+}
+h1{
+   font-family: $second-font;
+   font-size: 45px;
+   font-weight: 600;
+   margin-bottom: 50px;
+}
+p{
+    margin-bottom: 25px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.white{
+    color: $text-color;
+}
+@media only screen and (max-width:500px){
+    h1{
+        font-family: $second-font;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        align-self: $position;
+     }
+     p{
+        margin-bottom: 15px;
+        font-weight: 600;
+        line-height: 10px;
+        align-self: $position;
+    }
+    .white{
+        color: $text-color;
+    }
+}

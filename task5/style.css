@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+html *{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+
+}
+li a{
+    color:black;
+}
+header{
+    margin:0 auto;
+    width: 80%;
+}
+header img{
+    height: 20px;
+    position: relative;
+    top: 44px;
+}
+nav{
+    text-align: right;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding:30px;
+}
+li img{
+    width: 24px;
+    position: relative;
+    top: 5px;
+}
+main{
+    margin:0 auto;
+    width: 80%
+}
+.begin-text{
+    margin: 0 auto;
+    width:50%;
+    padding: 100px 0;
+}
+h1{
+    font-weight: 500;
+}
+.text-h1{
+    font-weight: 500;
+}
+.button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width:30px;
+    padding:5px;
+}
+article{
+    /* position: relative to enable the position: absolute on the child */
+    position: relative;
+    float:left;
+    width:30%;
+    height: 600px;
+    padding:4%;
+    margin-right: 20px;
+    background-image: url("speaker1.jpg");
+    background-size:cover; 
+}
+article h2{
+    color:white;
+}
+.article-section a:last-child article{
+    
+}
+.article-2{
+    background-image: url("speaker2.jpg");
+}
+.article-3{
+    background-image: url("speaker3.jpg");
+    background-position: center;
+}
+.article-section{
+    padding:10px;
+}
+article img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding:5px;
+    position: absolute;
+    bottom:50px;
+    box-shadow:0 0 0px 5px rgba(225, 225, 225, .25);
+    background: #fff
+
+}

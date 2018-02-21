@@ -1,0 +1,78 @@
+body{
+    background-color: #f45f42;
+}
+section{
+    margin:0 auto;
+    width: 1100px;
+}
+.cards{
+    width: 250px;
+    position: absolute;
+    padding: 10px;
+    box-shadow: -10px 10px 20px rgb(56, 50, 50);
+}
+.card1{
+    background-color:#ffff66;
+    z-index:1;
+    margin: 100px 10px 0 500px;
+   
+}
+.card2{
+    background-color:#b1dbed;
+    z-index: 0;
+    margin: 206px 1px 20px 350px;
+}
+.card2 p{
+    color: rgb(83, 83, 177);
+}
+.card2 h5{
+    color: rgb(83, 83, 177);
+}
+.card2 h2{
+    color: rgb(83, 83, 177);
+}
+h2{
+    color: darkgoldenrod;
+    padding-left: 20px;
+    padding-bottom: 210px;
+    font-size: 20px;
+}
+h2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 32px;
+    left: 15px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: darkgoldenrod;
+}
+
+h5{
+    color:darkgoldenrod;
+}
+p{
+    color: darkgoldenrod;
+}
+.boxes{
+    height: 30px;
+    border-top:1px black solid;
+    float: left;
+    }
+.box1{
+    width: 20%;
+    color: rgb(77, 77, 140);
+}
+.box2{
+    width: 60%;
+}
+.box3{
+    width: 20%;
+    color: darkgoldenrod;
+}
+.clearfix:after{
+  clear:both;
+  content: "";
+  display: block;
+}
