@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
+
 <body>
     <a style="position:fixed;
     top: 20px;
@@ -33,33 +35,42 @@
             <button class="button-right">Sign Up</button>
             <h2>
                 Sign In or
-            <a href="#"><b>Sign Up</b></a>
-        </h2>
-        <form>
-            <!-- the name="" is actually to give the data i am sending to the server a name and to define it -->
-            <!-- always the input and the label should  be connected with the same value of id and for  -->
-           <p> <fieldset>
-                <label for="fullname">Full Name</label>
-                <input id="fullname" type="text" name="fullname" placeholder="Enter your full name" required>
-            </fieldset></p>
-            <p><fieldset>
-                    <label for="password">Password</label>
-                    <input id="password" type="password" name="password" placeholder="" required>
-            </fieldset></p>
-           <p> <fieldset>
-                    <label for="email">E-mail</label>
-                    <input id="email" type="email" name="email" placeholder="Your email goes here" required>
-            </fieldset></p>
-            <p><fieldset>
-                    <input id="checkbox" type="checkbox" name="terms" value="terms_agreed" required>
-                    <label for="">I agree all statments in <a href="#">terms of service</a></label>
-                </fieldset></p>
-            <fieldset>
+                <a href="#"><b>Sign Up</b></a>
+            </h2>
+            <form>
+                <!-- the name="" is actually to give the data i am sending to the server a name and to define it -->
+                <!-- always the input and the label should  be connected with the same value of id and for  -->
+                <p>
+                    <fieldset>
+                        <label for="fullname">Full Name</label>
+                        <input id="fullname" type="text" name="fullname" placeholder="Enter your full name" required>
+                    </fieldset>
+                </p>
+                <p>
+                    <fieldset>
+                        <label for="password">Password</label>
+                        <input id="password" type="password" name="password" placeholder="" required>
+                    </fieldset>
+                </p>
+                <p>
+                    <fieldset>
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Your email goes here" required>
+                    </fieldset>
+                </p>
+                <p>
+                    <fieldset>
+                        <input id="checkbox" type="checkbox" name="terms" value="terms_agreed" required>
+                        <label for="">I agree all statments in <a href="#">terms of service</a></label>
+                    </fieldset>
+                </p>
+                <fieldset>
                     <input id="submit" type="submit" value="Sign Up">
                     <a class="member" href="">I'm already a member</a>
                 </fieldset>
-        </form>
+            </form>
         </section>
     </main>
 </body>
+
 </html>
